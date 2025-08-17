@@ -5,6 +5,7 @@
 
     shellAliases = {
       ff = "fastfetch";
+      lg = "lazygit";
     };
   };
 }
