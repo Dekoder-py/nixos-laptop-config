@@ -72,6 +72,8 @@
   #  wget
     neovim
     git
+    gh
+    lazygit
   ];
 
   # Set default editor to nvim
