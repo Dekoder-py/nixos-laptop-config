@@ -14,4 +14,5 @@
     firefox
 
     greetd
+    hyprpaper
 ]

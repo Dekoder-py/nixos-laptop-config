@@ -10,6 +10,7 @@
     ./modules/git/default.nix
     ./modules/gh/default.nix
     ./modules/hypr/hyprland.nix
+    ./modules/hypr/hyprpaper.nix
   ];
 
   home.stateVersion = "25.05";
