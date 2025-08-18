@@ -67,6 +67,11 @@
 
   environment.systemPackages = import ./packages.nix { inherit pkgs; };
 
+  services.greetd.enable = true;
+  services.greetd.settings = {
+    command = "${pkgs.greetd.greetd}/bin/agreety --cmd Hyprland";
+  };
+
   # hyprland
   programs.hyprland.enable = true;
   environment.sessionVariables.NIXOS_OZONE_WL = "1";

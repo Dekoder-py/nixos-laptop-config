@@ -7,4 +7,6 @@
 
     kitty
     firefox
+
+    greetd
 ]
