@@ -4,6 +4,11 @@
     gh
     lazygit
     eza
+    bat 
+    fastfetch
+    ripgrep
+    fzf
+    fd
 
     kitty
     firefox
