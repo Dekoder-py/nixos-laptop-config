@@ -73,6 +73,7 @@
     neovim
     git
     lazygit
+    eza
   ];
 
   # Set default editor to nvim
