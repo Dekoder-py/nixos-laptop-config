@@ -3,6 +3,6 @@
 
   services.hyprpaper.settings = {
     preload = ["/share/wallpapers/wallpaper.png"];
-    wallpaper = [",/share/wallpaper/wallpaper.png"];
+    wallpaper = [", /share/wallpaper/wallpaper.png"];
   };
 }
