@@ -59,9 +59,6 @@
     packages = with pkgs; [];
   };
 
-  # Enable automatic login for the user.
-  services.getty.autologinUser = "kyle";
-
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
@@ -70,7 +67,7 @@
   services.greetd.enable = true;
   services.greetd.settings = {
     default_session = {
-      command = "${pkgs.greetd.greetd}/bin/agreety --cmd Hyprland";
+      command = "${pkgs.greetd}/bin/agreety --cmd Hyprland";
     };
   };
 
