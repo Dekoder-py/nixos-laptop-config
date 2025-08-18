@@ -2,6 +2,12 @@
   wayland.windowManager.hyprland.enable = true;
   
   wayland.windowManager.hyprland.settings = {
+    general = {
+      gaps_out = 10;
+      gaps_in = 4;
+    };
+
+
     "$mod" = "SUPER";
     bind = [
       "$mod, T, exec, kitty"
