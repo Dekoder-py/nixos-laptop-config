@@ -11,6 +11,7 @@
       ll = "eza -lha --icons=always --sort=name --group-directories-first";
       ld = "eza -lhD --icons=always";
       lt = "eza --icons=always --tree";
+      nix-sync = "sudo nixos-rebuild switch";
     };
   };
 }
