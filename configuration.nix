@@ -72,6 +72,7 @@
   #  wget
     neovim
     git
+    gh
     lazygit
     eza
   ];
