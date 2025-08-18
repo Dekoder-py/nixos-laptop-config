@@ -10,11 +10,20 @@
 
     "$mod" = "SUPER";
     bind = [
+      # main binds
       "$mod, T, exec, kitty"
       "$mod, B, exec, firefox"
       "$mod, Q, killactive"
       "$mod, M, exit"
+      
+      # move focus with mod + arrows 
+      "$mod, left, movefocus, l"
+      "$mod, right, movefocus, r"
+      "$mod, up, movefocus, u"
+      "$mod, down, movefocus, d"
+
     ] ++ (
+      # workspace binds
       builtins.concatLists (builtins.genList (i:
         let ws = i + 1;
         in [
