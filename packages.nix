@@ -6,4 +6,5 @@
     eza
 
     kitty
+    firefox
 ]
