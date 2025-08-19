@@ -7,11 +7,11 @@
     vimdiffAlias = true;
 
     defaultEditor = true;
-    
-    extraLuaConfig = ''
+  };
+
+    programs.neovim.extraLuaConfig = ''
 
       ${builtins.readFile ./options.lua}
     '';
 
-  };
 }
