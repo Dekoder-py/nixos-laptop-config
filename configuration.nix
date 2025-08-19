@@ -61,8 +61,18 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-
+  
+  # Packages
   environment.systemPackages = import ./packages.nix { inherit pkgs; };
+  
+  # Fonts
+  fonts.packages = with pkgs; [
+    noto-fonts
+    noto-fonts-cjk-sans
+    noto-fonts-emoji
+    nerd-fonts.jetbrains-mono
+
+  ];
 
   services.greetd.enable = true;
   services.greetd.settings = {
