@@ -8,6 +8,7 @@
     ./modules/alacritty/default.nix
     ./modules/bash/default.nix
     ./modules/nvim/default.nix
+    ./modules/tmux/default.nix
     ./modules/git/default.nix
     ./modules/gh/default.nix
     ./modules/hypr/hyprland.nix
