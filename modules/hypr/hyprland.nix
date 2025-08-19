@@ -13,6 +13,7 @@
       # main binds
       "$mod, T, exec, alacritty"
       "$mod, B, exec, firefox"
+      "$mod, SPACE, exec, rofi -show drun"
       "$mod, Q, killactive"
       "$mod, M, exit"
       

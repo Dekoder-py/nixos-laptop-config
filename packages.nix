@@ -16,4 +16,5 @@
 
     greetd
     hyprpaper
+    rofi
 ]
