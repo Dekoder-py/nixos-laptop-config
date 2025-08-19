@@ -4,6 +4,7 @@
     terminal = "tmux-256color";
     baseIndex = 1;
     prefix = "C-s";
+    keyMode = "vi";
   };
 
   programs.tmux.extraConfig = ''
