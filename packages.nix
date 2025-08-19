@@ -10,7 +10,7 @@
     fzf
     fd
 
-    kitty
+    alacritty 
     firefox
 
     greetd

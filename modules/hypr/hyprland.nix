@@ -11,7 +11,7 @@
     "$mod" = "SUPER";
     bind = [
       # main binds
-      "$mod, T, exec, kitty"
+      "$mod, T, exec, alacritty"
       "$mod, B, exec, firefox"
       "$mod, Q, killactive"
       "$mod, M, exit"
