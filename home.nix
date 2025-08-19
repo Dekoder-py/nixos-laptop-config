@@ -5,6 +5,7 @@
   home.homeDirectory = "/home/kyle";
 
   imports = [
+    ./modules/alacritty/default.nix
     ./modules/bash/default.nix
     ./modules/nvim/default.nix
     ./modules/git/default.nix
