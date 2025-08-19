@@ -5,4 +5,11 @@
     baseIndex = 1;
     prefix = "C-s";
   };
+
+  programs.tmux.extraConfig = ''
+  set -g status-style 'bg=#1e1e2e'
+  set -g status-position top
+  
+  bind r source-file ~/.config/tmux/tmux.conf \; display-message 'Config reloaded'
+  '';
 }
