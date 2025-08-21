@@ -13,5 +13,9 @@
       lt = "eza --icons=always --tree";
       nix-sync = "sudo nixos-rebuild switch";
     };
+    
+    initExtra = ''
+    eval "$(zoxide init bash)"
+    '';
   };
 }
