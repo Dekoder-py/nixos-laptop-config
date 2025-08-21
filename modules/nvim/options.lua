@@ -8,7 +8,7 @@ vim.keymap.set("n", "<leader>lg", "<cmd>Lazygit<cr>")
 
 -- Telescope
 vim.keymap.set("n", "<leader>ff", "<cmd>Telescope fd<cr>")
-vim.keymap.set("n", "<leader>fw", "<cmd>Telescope grep-string<cr>")
+vim.keymap.set("n", "<leader>fw", "<cmd>Telescope grep_string<cr>")
 
 -- tab settings
 vim.cmd("set expandtab")
