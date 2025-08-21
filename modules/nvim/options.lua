@@ -2,8 +2,8 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
--- tmux-sessionizer
-vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
+
+vim.keymap.set("n", "<leader>e", "<cmd>Ex<cr>")
 
 -- tab settings
 vim.cmd("set expandtab")
