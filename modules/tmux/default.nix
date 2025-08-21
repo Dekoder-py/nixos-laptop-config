@@ -8,6 +8,7 @@
   };
 
   programs.tmux.extraConfig = ''
+  set-option -ga terminal-overrides ",*256col*:Tc:RGB"
   set -g status-style 'bg=#1e1e2e'
   set -g status-position top
   
