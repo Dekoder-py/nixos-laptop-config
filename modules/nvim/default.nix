@@ -12,6 +12,7 @@
       catppuccin-nvim
       lazygit-nvim
       oil-nvim
+      nvim-web-devicons
     ];
 
     defaultEditor = true;
@@ -19,7 +20,7 @@
 
     programs.neovim.extraLuaConfig = ''
       ${builtins.readFile ./options.lua}
-
+      ${builtins.readFile ./setup.lua}
 
       vim.cmd.colorscheme "catppuccin"
     '';

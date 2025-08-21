@@ -3,8 +3,8 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 -- Keymaps
-vim.keymap.set("n", "<leader>e", "<cmd>Oil .<cr>")
-vim.keymap.set("n", "<leader>lg", "<cmd>Lazygit<cr>")
+vim.keymap.set("n", "<leader>e", "<cmd>Oil<cr>")
+vim.keymap.set("n", "<leader>lg", "<cmd>LazyGit<cr>")
 
 -- Telescope
 vim.keymap.set("n", "<leader>ff", "<cmd>Telescope fd<cr>")
