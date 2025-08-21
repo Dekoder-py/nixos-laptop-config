@@ -10,14 +10,18 @@
       telescope-nvim
       nvim-treesitter
       catppuccin-nvim
+      lazygit-nvim
+      oil-nvim
     ];
 
     defaultEditor = true;
   };
 
     programs.neovim.extraLuaConfig = ''
-      vim.cmd.colorscheme "catppuccin"
       ${builtins.readFile ./options.lua}
+
+
+      vim.cmd.colorscheme "catppuccin"
     '';
 
 }

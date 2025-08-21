@@ -2,8 +2,13 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- Keymaps
+vim.keymap.set("n", "<leader>e", "<cmd>Oil .<cr>")
+vim.keymap.set("n", "<leader>lg", "<cmd>Lazygit<cr>")
 
-vim.keymap.set("n", "<leader>e", "<cmd>Ex<cr>")
+-- Telescope
+vim.keymap.set("n", "<leader>ff", "<cmd>Telescope fd<cr>")
+vim.keymap.set("n", "<leader>fw", "<cmd>Telescope grep-string<cr>")
 
 -- tab settings
 vim.cmd("set expandtab")
