@@ -21,8 +21,6 @@
     programs.neovim.extraLuaConfig = ''
       ${builtins.readFile ./options.lua}
       ${builtins.readFile ./setup.lua}
-
-      vim.cmd.colorscheme "catppuccin"
     '';
 
 }
