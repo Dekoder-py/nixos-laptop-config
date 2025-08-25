@@ -14,6 +14,7 @@
 
     alacritty 
     firefox
+    prismlauncher
 
     greetd
     hyprpaper
