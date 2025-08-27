@@ -14,7 +14,7 @@
 
     alacritty 
     firefox
-    prismlauncher
+    modrinth-app
 
     greetd
     hyprpaper
