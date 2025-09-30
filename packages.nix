@@ -19,4 +19,6 @@
     greetd
     hyprpaper
     rofi
+
+    bluez
 ]

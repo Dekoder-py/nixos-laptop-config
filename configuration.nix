@@ -24,6 +24,9 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  services.bluetooth.enable = true;
+  services.blueman.enable = true; # For a desktop GUI manager
+
   # Enable Flakes
   nix.settings.experimental-features = [ "nix-command" "flakes"];
 
